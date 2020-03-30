@@ -1,7 +1,11 @@
+"""
+pNeRF algorithm for parallelized conversion from internal to Cartesian coordinates.
+"""
+
+# Imports
 import math
 import collections
 import jax.numpy as onp
-
 
 # Constants
 NUM_DIMENSIONS = 3
